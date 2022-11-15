@@ -55,4 +55,4 @@ function Schedule(){
   );
 }
 
-export default TicketList;
+export default Schedule;
