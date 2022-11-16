@@ -2,7 +2,8 @@ import React from "react";
 import Header from "./Header";
 import Schedule from "./Schedule";
 import Seasons from "./Seasons";
-import farmersmarket from "./../img/farmersmarket.webp"
+import farmersmarket from "./../img/farmersmarket.webp";
+import Dropdown from "./DropdownControl.js";
 
 function App(){
   return(
@@ -13,6 +14,7 @@ function App(){
       </div>
       <img src={farmersmarket} alt="Fresh produce" width="25%"/>
       <Seasons />
+      <Dropdown />
     </React.Fragment>
   );
 }
